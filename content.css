@@ -1,0 +1,55 @@
+/* General Structure */
+    body, td, th, input { /* redundant rules for bad browsers  */
+            font-family: georgia, verdana, sans-serif;
+            color: 444444
+            voice-family: "\"}\"";
+            voice-family: inherit;
+            font-size: 10pt;
+    }
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 1em 0 0.2em 0;
+		border-bottom: 1px solid #ccc;
+		font-family: georgia, arial, verdana, sans-serif;
+      color: 444444
+	}
+	li h1, li h2, li h3, li h4, li h5, li h6 {
+		border: none;
+	}
+
+	#header h1 { border: 0; }
+
+	h1 { font-size: 170%; font-weight: normal; }
+	h2 { font-size: 130%; font-weight: normal; }
+	h3 { font-size: 110%; }
+	h4 { font-size: 100%; }
+	h5 { font-size: 90%; }
+	h6 { font-size: 90%; border: 0; }
+	
+/* Navigation */
+
+        :link { color: #039; }
+        :visited { color: #636; }
+        :link:hover, :visited:hover { color: #333; }
+        :link:active, :link:active { color: #000; }
+
+#temp-note {
+   background: #f9f6b7 bottom repeat-x;
+   padding: 0;
+   margin: 1em 0;
+   border: 1px solid #c4c295;
+   line-height: 150%;
+}
+
+#check{
+   background: #f9f6b7 bottom repeat-x;
+   border: 1px solid #c4c295;
+   text-align: center
+}
+
+.linktable, .linktable TD, .linktable TH
+{
+   background-color: eeeeee;
+   color: 222222;
+}
+
